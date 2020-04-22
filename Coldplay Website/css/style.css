@@ -1,0 +1,402 @@
+kl /*DEFAULT CONTENT BOX
+  ZERO  default margins and padding on elements */
+  
+  * {margin:0;
+  padding : 0;
+  }
+  
+  body {
+ 
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 150%;
+  color: #333;  /*Black*/
+  
+  	
+		background-image: url(../images/hymm.jpg);
+		background-size:contain;
+		background-position:top;
+		
+
+  }
+
+/*HEADER SECTION */
+
+header img.name{
+	
+	height:120px;
+	width:700px;
+	margin:0 auto;
+	display:block;
+	max-width:100%;
+	
+}
+header{
+		background-color:#000000;
+}
+
+/*NAVIGATION */
+
+
+
+
+nav ul {
+  list-style-type: none;
+  padding-left: 10%; /*spacing on the whole left side of this navigation */
+    }
+
+nav li { 
+  border-bottom: 1px solid rgb(255,255,255); /*White - could also use hexedecimal */
+}
+
+nav li a {
+  display: block;  /*Make whole area clickable */
+  color: #fff;  /*White */
+  text-decoration: none;
+  padding: 10px 0 10px 0px; /*T, R, B, L*/
+  font-weight: bold;
+   }
+nav li a:hover {
+  display: block;  /*Make whole area clickable */
+  color: #ff0000;  /*Red */
+  text-decoration: none;
+  padding: 10px 0 10px 0px; /*T, R, B, L*/
+  font-weight: bold;
+   }
+  nav li:last-child {   /*CSS3 Property Targeting last list item */
+  border-bottom: none;
+  }
+
+
+/*This section excludes Header and Footer as marked up in HTML document*/   
+main#pageBody { 
+  margin-left:auto; /*Equal margins on both sides */
+  margin-right:auto;
+  max-width:1200px; /* NB:  Screen will never get larger than 1200px*/
+  }
+
+/*CONTENT */
+
+article  {
+  padding:2%;
+  color: #ffffff;  /*white*/
+  margin-bottom:4%;
+ 
+  font-family:Arial;
+  font-style:italic;
+  
+  
+  
+}
+article img.jump
+{
+    margin-top:inherit
+        
+}
+
+article div.members
+{
+    text-align: center;
+    
+}
+
+article h1 {
+  margin-bottom: 2%;
+  font-style:normal;
+  font-family:Impact;
+    text-align:center;
+	}
+article div.quote{
+		font-family:"Lucida Handwriting", cursive;
+		color:yellow;
+		font-style:italic;
+		text-align:center;
+		margin-left:3%;
+		margin-right:3%;
+		padding:inherit;
+		margin-bottom:2%;
+		
+		
+}
+article div.lastpara{
+	margin-bottom:5%;
+}
+
+article img {
+max-width:100%;  /*max-width scales img to container */ 
+float:left;
+margin-top: 2%;
+margin-right:3%;
+}
+article img.squad
+{
+	max-width:100%;
+	float:inherit;
+	width:650px;
+	
+	padding:5%;
+	
+	
+}
+article img.chris{
+	height:200px;
+	width:250px;
+	float:left;
+	
+	
+}
+
+
+/*SIDEBAR */
+
+aside p {
+  padding:2%;
+ 
+  color: #fff;  /*White*/
+
+  font-size: 85%;  /*85% of parent body font of 1em, so equivalent to 0.85em */
+}
+aside h3 {
+	color:purple;
+	padding:2%;
+	margin-top:6%;
+    text-align:center;
+	
+}
+aside ul {
+	color:white;
+    text-align:center;
+}
+aside h1 {
+	padding:2%;
+	color:yellowgreen; 
+    text-align: center;
+}
+
+/*FOOTER */
+footer div.Return
+{
+    display: block;  /*Make whole area clickable */
+  color: #fff;  /*White */
+    text-decoration: none;
+  padding: 10px 0 10px 0px; /*T, R, B, L*/
+  font-weight: bold;
+}
+footer div.Return a:hover
+{
+    display: block;  /*Make whole area clickable */
+  color: #ff0000;  /*Red */
+  text-decoration: none;
+  padding: 10px 0 10px 0px; /*T, R, B, L*/
+  font-weight: bold;
+}     
+footer div.Return a:visited
+{
+    display: block;  /*Make whole area clickable */
+  color:white;  /*Red */
+  text-decoration: none;
+  padding: 10px 0 10px 0px; /*T, R, B, L*/
+  font-weight: bold;
+}         
+footer {
+	
+	text-align: center;
+	height: auto;
+	padding: 1% 1%;  /*T/B and L/R*/
+    margin-top:100px;
+	position:inherit;
+}
+footer div.social{
+	clear:both;
+	display:inline-block;
+	
+}
+
+footer div.search
+{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+footer p.left
+{
+    color:beige;
+    margin-top:2px;
+    margin-bottom: 2px;
+    float: left
+}
+footer p.right
+{
+    color:beige;
+    margin-top:2px;
+    margin-bottom: 2px;
+    float: right
+}
+
+
+
+/*ALBUM*/
+
+div.album1 {
+    float:left;
+    width:240px; /*image + H padding + H borders */
+    padding:1%;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    height: 50em; /*adds iniform height ffor each caption */ /*39 */
+    color:chartreuse;     
+}
+h1.heading
+{	
+	 color:white;
+    text-align: center;
+    padding-bottom:1%;
+  font-weight:700;
+  font-family:Impact;
+    margin-bottom: 2%;
+}
+h1.heading2
+{	
+	 color:white;
+    text-align: center;
+    padding-bottom:1%;
+  font-weight:200;
+  font-family:Impact;
+    margin-bottom: 5%;
+}
+
+figure img{
+    border:1px solid red;
+        margin-bottom: 2px;           
+}
+	
+figure figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+  
+    height: 5em; /*adds iniform height ffor each caption */
+    color:chartreuse;    
+    
+}
+/* About */
+
+img.squad
+{
+    width: 1200px;
+    height: 300px;
+
+    
+}
+    
+
+/* CONTACT US */
+
+ img.jump2
+{
+    
+	max-width:100%;
+    max-height:100%;
+    
+        
+}
+
+form div.contact
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+form label {
+    
+    color:darkturquoise;
+}
+form span {
+    
+    color:red;
+}
+form label.Query
+{
+    color: :White;
+}
+ul.topnav{
+	list-style-type: none;
+	
+}
+ul.topnav li a {
+	display:block;
+	color: #f2f2f2;
+	padding: 14px 16px;
+	text-docoration: none;
+}
+ul.topnav li.hide
+{display:none;} /*hide the menu items*/
+ul.topnav.responsive li {display:block;} /*class added via jQuery*/
+
+ /*MEDIA QUERIES */
+
+   	@media screen and (min-width:600px) 
+	/* applies at 600px or greater */
+	{
+    	body {
+		background-image: url(../images/hymm.jpg);
+		background-size:contain;
+		background-position:center;
+		
+	
+		}
+		
+		
+	nav li {
+        border-bottom: none; /*Overwriting the border bottom on the <LI>s on mobile CSS*/
+	display:inline-block; /*Similar to float left to display the links side by side */
+	width: 24%;   /*Adding width - 24% x 4 = 96% as 2% padding left on nav ul in mobile CSS*/
+        }
+	
+	
+	/*overwrite the display property to display the MENU Items side by side*/
+	ul li.hide{
+        display:inline-block;}
+
+/*Overwrite the display property that is applied using the 'responsive' class that is applied via the jQuery toggle() method*/
+nav ul.responsive li
+        {
+display:inline-block;}
+
+/*Overwrite the display property, ie, Don't show the burger menu*/
+nav ul li.icon {display:none;}
+	
+		  
+  article { width: 66%;  /*Adding new selector - article*/
+  /* as 2% padding added on left and right - so 70% in total for the width */
+  float:left;
+   }
+  
+  aside {width: 26%;  /*Adding new selector - aside */
+  /* as 2% padding added on left and right - so 30% in total for the width */
+   float: left;
+  }
+  
+  footer {clear :both;} /*clearing footer as following floated items*/
+        figure figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0.9em;
+    text-align: center;
+    margin: 1px 0 0 0;
+    height: 5em; /*adds iniform height ffor each caption */
+    color:chartreuse;    
+}
+ul.topnav li a {
+	display:incline-block; /*overwriting the display:block property*/
+	padding: 16px 20px;
+}
+ul.topnav li.hide{
+	display:incline-block; /*overwriting the display property that is applied via the jQuery toggle() method*/
+}
+ul.topnav li.icon{display:none;}
+  } /*end of M query*/
+  
